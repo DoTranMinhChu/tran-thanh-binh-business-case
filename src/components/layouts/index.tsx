@@ -9,10 +9,15 @@ import DefaultFooter from "../footers";
 
 export default function DefaultLayout({ children, ...props }: IProps) {
     return (
-        <div className="bg-gray-300 text-black">
+        <div className="text-black bg-gray-200">
             <DefaultNavbar />
-            <main className="min-h-screen">{children}</main>
-            <DefaultFooter/>
+            <main className="container min-h-screen m-auto">
+                <section className="min-h-screen p-20 mx-auto my-12 tracking-wider bg-gray-100">
+
+                    {children}
+                </section>
+            </main>
+            <DefaultFooter />
         </div>
     )
 }

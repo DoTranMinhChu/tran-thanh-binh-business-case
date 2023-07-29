@@ -7,16 +7,32 @@ const menuNavbarList: IItemNavbar[] = [
         slug: "/"
     },
     {
-        name: "about",
-        title: "About Me",
-        slug: "/about-me"
+        name: "alternatives",
+        title: "Alternatives",
+        slug: "/alternatives"
     },
     {
-        name: "portfolio",
-        title: "Portfolio",
-        slug: "/portfolio"
+        name: "literature-review",
+        title: "Literature Review",
+        slug: "/literature-review"
+    },
+    {
+        name: "recommendation",
+        title: "Recommendation",
+        slug: "/recommendation"
+    },
+    {
+        name: "conclusion",
+        title: "Conclusion",
+        slug: "/conclusion"
+    },
+    {
+        name: "others",
+        title: "others",
+        slug: "/others"
     }
 ]
+ 
 
 export { menuNavbarList }
 

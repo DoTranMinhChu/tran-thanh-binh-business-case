@@ -19,7 +19,7 @@ export default function DefaultNavbar() {
                     <div className="relative flex items-center h-16">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 
-                            <button type="button" onClick={handleToggleOpenMobileMenu} className="inline-flex items-center p-2 text-gray-400 rounded-md hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                            <button type="button" onClick={handleToggleOpenMobileMenu} className="inline-flex items-center p-2 text-black border-2 border-black rounded-md hover:bg-gray-900 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                                 <span className="sr-only">Open main menu</span>
 
                                 <svg className="block w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
@@ -55,13 +55,13 @@ export default function DefaultNavbar() {
                 </div>
 
 
-                <div className={`duration-500 ease-in-out bg-gray-900 top-full left-0 right-0 h-fit overflow-hidden z-0  ${openMobileMenu ? "sm:!-top-40" : "!-top-40"} absolute shadow-md shadow-gray-800`} id="mobile-menu">
+                <div className={`duration-500 ease-in-out bg-gray-200 top-full left-0 right-0 h-fit overflow-hidden z-0  ${openMobileMenu ? "sm:!-top-80" : "!-top-80"} absolute shadow-md shadow-gray-400`} id="mobile-menu">
                     <div className="px-2 pt-2 pb-3">
                         {
                             menuNavbarList.map((item: IItemNavbar) => {
 
                                 return (
-                                    <ItemMenuButton href={item.slug} className="block px-3 py-2 text-xl font-medium text-white" active={router.asPath == item.slug} key={item.name}>{item.title}</ItemMenuButton>
+                                    <ItemMenuButton href={item.slug} className="block px-3 py-2 text-xl font-medium" active={router.asPath == item.slug} key={item.name}>{item.title}</ItemMenuButton>
                                 )
                             })
                         }

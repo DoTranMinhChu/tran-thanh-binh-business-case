@@ -15,14 +15,14 @@ export default function Home() {
           description: '',
           images: [
             {
-              url: '/image/home_page.png',
+              url: '/image/home-page.png',
               width: 800,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             },
             {
-              url: '/image/home_page.png',
+              url: '/image/home-page.png',
               width: 1200,
               height: 800,
               alt: 'Og Image Alt Second',

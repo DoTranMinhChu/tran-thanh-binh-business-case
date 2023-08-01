@@ -2,14 +2,9 @@ import { IItemNavbar } from "@/interfaces/iItemNavbar.interface"
 
 const menuNavbarList: IItemNavbar[] = [
     {
-        name: "home",
-        title: "Home",
+        name: "introduction",
+        title: "Introduction",
         slug: "/"
-    },
-    {
-        name: "alternatives",
-        title: "Alternatives",
-        slug: "/alternatives"
     },
     {
         name: "literature-review",
@@ -17,9 +12,19 @@ const menuNavbarList: IItemNavbar[] = [
         slug: "/literature-review"
     },
     {
-        name: "recommendation",
-        title: "Recommendation",
-        slug: "/recommendation"
+        name: "problem-refinement ",
+        title: "Problem Refinement ",
+        slug: "/problem-refinement "
+    },
+    {
+        name: "alternatives",
+        title: "Alternatives",
+        slug: "/alternatives"
+    },
+    {
+        name: "recommendations",
+        title: "Recommendations",
+        slug: "/recommendations"
     },
     {
         name: "conclusion",
@@ -28,7 +33,7 @@ const menuNavbarList: IItemNavbar[] = [
     },
     {
         name: "others",
-        title: "others",
+        title: "Others",
         slug: "/others"
     }
 ]

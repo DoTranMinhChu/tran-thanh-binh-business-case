@@ -1,0 +1,64 @@
+/* styles/styles.css */
+.table {
+    margin-left: 34.85pt;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  .cell {
+    width: 458.75pt;
+    border: solid white 2.25pt;
+    background: gray;
+    padding: 0in 5.4pt 0in 5.4pt;
+  }
+  
+  .heading {
+    margin-bottom: 0in;
+    text-align: center;
+    line-height: normal;
+  }
+  
+  .logo {
+    border: 0;
+    width: 107px;
+    height: 63px;
+  }
+  
+  .title {
+    font-size: 19.0pt;
+    color: black;
+  }
+  
+  .header-row {
+    background: #066684;
+    color: white;
+  }
+  
+  .header-cell {
+    border-top: none;
+    border-left: none;
+    border-bottom: solid white 2.25pt;
+    border-right: solid white 2.25pt;
+    background: #066684;
+    padding: 0in 5.4pt 0in 5.4pt;
+    height: 100.75pt;
+  }
+  
+  .content {
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 0in;
+    margin-left: 0.15in;
+    text-indent: -9.35pt;
+    line-height: 150%;
+  }
+  
+  .list {
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 0in;
+    margin-left: 12.35pt;
+    text-indent: -13.5pt;
+    line-height: normal;
+  }
+  

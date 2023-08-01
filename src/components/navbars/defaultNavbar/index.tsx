@@ -17,7 +17,7 @@ export default function DefaultNavbar() {
             <nav className="relative shadow-md shadow-gray-400 ">
                 <div className="relative z-50 px-2 mx-auto bg-gray-300 sm:px-6 lg:px-8">
                     <div className="relative flex items-center h-16">
-                        <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                        <div className="absolute inset-y-0 left-0 flex items-center xl:hidden">
 
                             <button type="button" onClick={handleToggleOpenMobileMenu} className="inline-flex items-center p-2 text-black border-2 border-black rounded-md hover:bg-gray-900 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                                 <span className="sr-only">Open main menu</span>
@@ -31,18 +31,18 @@ export default function DefaultNavbar() {
                                 </svg>
                             </button>
                         </div>
-                        <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-between ">
+                        <div className="flex items-center justify-center flex-1 xl:items-stretch xl:justify-between ">
                             <div className="flex items-center flex-shrink-0">
-                                <Link href="/" className="px-3 py-2 text-xl font-medium ">Business Case</Link>
+                                <Link href="/" className="px-1 py-2 text-lg font-medium ">Business Case</Link>
 
                             </div>
-                            <div className="hidden sm:ml-6 sm:block">
+                            <div className="hidden sm:ml-6 xl:block">
                                 <div className="flex space-x-4">
                                     {
                                         menuNavbarList.map((item: IItemNavbar) => {
 
                                             return (
-                                                <ItemMenuButton href={item.slug} className="px-6 py-2 text-xl font-medium" active={router.asPath == item.slug} key={item.name}>{item.title}</ItemMenuButton>
+                                                <ItemMenuButton href={item.slug} className="px-3 py-2 text-lg font-medium" active={router.asPath == item.slug} key={item.name}>{item.title}</ItemMenuButton>
                                             )
                                         })
                                     }
@@ -55,7 +55,7 @@ export default function DefaultNavbar() {
                 </div>
 
 
-                <div className={`duration-500 ease-in-out bg-gray-200 top-full left-0 right-0 h-fit overflow-hidden z-0  ${openMobileMenu ? "sm:!-top-80" : "!-top-80"} absolute shadow-md shadow-gray-400`} id="mobile-menu">
+                <div className={`duration-500 ease-in-out bg-gray-200 top-full left-0 right-0 h-fit overflow-hidden z-0  ${openMobileMenu ? "xl:!-top-80" : "!-top-80"} absolute shadow-md shadow-gray-400`} id="mobile-menu">
                     <div className="px-2 pt-2 pb-3">
                         {
                             menuNavbarList.map((item: IItemNavbar) => {

@@ -40,9 +40,9 @@ export default function Home() {
             Company and different aspects of the issue.
           </p>
           {/* Porter's five forces */}
-          <h2 className="font-medium">Porter's five forces</h2>
+          <h2 className="font-medium">Porter&apos;s five forces</h2>
           <p className="py-2 text-justify">
-            Porter's five forces are competitive rivalry, supplier power, buyer
+            Porter&apos;s five forces are competitive rivalry, supplier power, buyer
             power, threat of substitution and threat of new entry. This model is
             unique because it gauges profitability by focusing less on the
             product or audience and more on outside influences and competition.
@@ -55,18 +55,18 @@ export default function Home() {
               <p className="inline">
                 Supplier power addresses the number and size of other suppliers,
                 the uniqueness of the service and the cost of substituting the
-                company’s products.
+                company&apos;s products.
               </p>
             </li>
             <li className="text-justify">
               <p className="inline">
-                Buyer power refers to the customer's ability to influence
+                Buyer power refers to the customer&apos;s ability to influence
                 company decisions.
               </p>
             </li>
             <li className="text-justify">
               <p className="inline">
-                Threat of substitution describes how the company’s products
+                Threat of substitution describes how the company&apos;s products
                 performs compared to any alternatives.
               </p>
             </li>
@@ -87,7 +87,7 @@ export default function Home() {
           {/* STP marketing model */}
           <h2 className="font-medium">STP marketing model</h2>
           <p className="py-2 text-justify">
-            STP stands for segmentation, targeting and positioning. It's a
+            STP stands for segmentation, targeting and positioning. It&apos;s a
             popular model that uses the top-down approach by focusing on how a
             company addresses customers. STP uses a four-step process to deliver
             relevant, personalized messages to targeted audiences. Top-down
@@ -113,7 +113,7 @@ export default function Home() {
             business strategy from its conception to its evaluation. By using
             the 7Ps breakdown, the company can analyze each aspect of the
             company to identify ways that the company can optimize its strategy
-            and meet the goals. Here's a breakdown of what each P represents:
+            and meet the goals. Here&apos;s a breakdown of what each P represents:
           </p>
           <ul className="pt-2 pl-4 list-disc">
             <li className="text-justify">
@@ -128,7 +128,7 @@ export default function Home() {
             </li>
             <li className="text-justify">
               <p className="inline">
-                Place is the where (whether it's online, from a warehouse or a
+                Place is the where (whether it&apos;s online, from a warehouse or a
                 shop front).
               </p>
             </li>
@@ -233,7 +233,7 @@ export default function Home() {
           </p>
           <p className="py-2 text-justify">
             In 2020, the Industrial Revolution 4.0 officially landed in Vietnam,
-            causing people's consumption and shopping behavior to change
+            causing people&apos;s consumption and shopping behavior to change
             rapidly. Customers began to focus on convenience, and online
             ordering became a trend. Up to now, affiliate has become a trend for
             all businesses if they want to do business in the digital age.

@@ -55,7 +55,7 @@ export default function DefaultNavbar() {
                 </div>
 
 
-                <div className={`duration-500 ease-in-out bg-gray-200 top-full left-0 right-0 h-fit overflow-hidden z-0  ${openMobileMenu ? "xl:!-top-80" : "!-top-80"} absolute shadow-md shadow-gray-400`} id="mobile-menu">
+                <div className={`duration-500 ease-in-out bg-gray-200 top-full left-0 right-0 h-fit overflow-hidden z-0  ${openMobileMenu ? "xl:!-top-96" : "!-top-96"} absolute shadow-md shadow-gray-400`} id="mobile-menu">
                     <div className="px-2 pt-2 pb-3">
                         {
                             menuNavbarList.map((item: IItemNavbar) => {

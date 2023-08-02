@@ -13,14 +13,14 @@ export default function Home() {
           description: "",
           images: [
             {
-              url: "/image/home-page.png",
+              url: "/image/introduction-page.png",
               width: 800,
               height: 600,
               alt: "Og Image Alt",
               type: "image/jpeg",
             },
             {
-              url: "/image/home-page.png",
+              url: "/image/introduction-page.png",
               width: 1200,
               height: 800,
               alt: "Og Image Alt Second",
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="py-2">
               <img
                 className="w-full mx-auto"
-                src="image/image001.png"
+                src="image/introduction-image001.png"
                 alt="Company Logo"
               />
             </div>
@@ -56,12 +56,12 @@ export default function Home() {
               <p className="italic">Moms and Babies</p>
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image002.png"
+                src="image/introduction-image002.png"
                 alt="Moms and Babies"
               />
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image003.png"
+                src="image/introduction-image003.png"
                 alt="Moms and Babies"
               />
               <div className="text-center">
@@ -77,12 +77,12 @@ export default function Home() {
               <p className="italic">Toys</p>
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image004.png"
+                src="image/introduction-image004.png"
                 alt="Toys"
               />
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image005.png"
+                src="image/introduction-image005.png"
                 alt="Toys"
               />
               <div className="grid grid-cols-2 gap-1 py-2">
@@ -92,7 +92,7 @@ export default function Home() {
                   </div>
                   <img
                     className="w-full h-full mx-auto"
-                    src="image/image006.png"
+                    src="image/introduction-image006.png"
                     alt="Toys"
                   />
                 </div>
@@ -102,13 +102,13 @@ export default function Home() {
                   </div>
                   <img
                     className="w-full h-full mx-auto"
-                    src="image/image007.png"
+                    src="image/introduction-image007.png"
                     alt="Toys"
                   />
                 </div>
               </div>
 
-              <div className="text-center">
+              <div className="pt-6 text-center">
                 <a
                   href="https://amotoy.com "
                   className="text-blue-500 underline"
@@ -121,7 +121,7 @@ export default function Home() {
               <p className="italic">Healthcare and Beauty</p>
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image008.png"
+                src="image/introduction-image008.png"
                 alt="Healthcare and Beauty"
               />
             </div>
@@ -129,12 +129,12 @@ export default function Home() {
               <p className="italic">Glasses</p>
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image009.png"
+                src="image/introduction-image009.png"
                 alt="Glasses"
               />
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image010.png"
+                src="image/introduction-image010.png"
                 alt="Glasses"
               />
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
               <p className="italic">Watches</p>
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image011.png"
+                src="image/introduction-image011.png"
                 alt="Watches"
               />
 
@@ -150,21 +150,21 @@ export default function Home() {
                 <div>
                   <img
                     className="w-full h-full mx-auto"
-                    src="image/image012.png"
+                    src="image/introduction-image012.png"
                     alt="Toys"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full h-full mx-auto"
-                    src="image/image013.png"
+                    src="image/introduction-image013.png"
                     alt="Toys"
                   />
                 </div>
               </div>
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image014.png"
+                src="image/introduction-image014.png"
                 alt="Watches"
               />
             </div>
@@ -187,7 +187,7 @@ export default function Home() {
             <div className="py-2">
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image015.png"
+                src="image/introduction-image015.png"
                 alt="Moms and Babies"
               />
             </div>
@@ -206,7 +206,7 @@ export default function Home() {
             <div className="py-2">
               <img
                 className="w-full py-2 mx-auto"
-                src="image/image016.png"
+                src="image/introduction-image016.png"
                 alt="Moms and Babies"
               />
             </div>
@@ -236,7 +236,7 @@ export default function Home() {
           </div>
         </section>
         <section className="py-4">
-          <h1 className="font-semibold">3. 3. STUDY METHODOLOGY</h1>
+          <h1 className="font-semibold">3. STUDY METHODOLOGY</h1>
           <div className="px-4">
             <div>
               <p className="py-2 text-justify">
@@ -253,9 +253,68 @@ export default function Home() {
                 cashflow can be generated accordingly). The study was,
                 therefore, executed with the following structure:
               </p>
-              <ul>
-                <li>abc</li>
-                <li>abc</li>
+              <ul className="pt-2 pl-4 list-disc">
+                <li className="text-justify">
+                  <p className="inline font-medium">
+                    Current state acknowledgment:{" "}
+                  </p>
+                  <p className="inline">
+                    the main goal of this step was to acquire a general
+                    understanding about the Company operations after the
+                    pandemic period until Q2-2023 to preliminarily see if what
+                    the possible reasons for the issue could be and the issue
+                    could be a business case for the study. One face-to-face
+                    interview with the general director of the Company was
+                    conducted in the Company office and some related historical
+                    records and reports were shared and reviewed. Then
+                    approximately 1 month for home study of the given data,
+                    another online discussion was made with him to clarify some
+                    unclear items with more information requested to be provided
+                    and to perceive some of his opinions on the situation,
+                    possible causes and measures which could be relevant for the
+                    study’s assessment.
+                  </p>
+                </li>
+                <li className="text-justify">
+                  <p className="inline font-medium">Literature review: </p>
+                  <p className="inline">
+                    after gaining certain knowledge about the Company current
+                    status, the main issue and possible measures, the team
+                    decided to review further literature about what the most
+                    relevant sales and marketing approach could be applied for
+                    the company. It is more helpful to have a practical insight
+                    of the literature by illustrating it with the real status of
+                    the market in this section.
+                  </p>
+                </li>
+                <li className="text-justify">
+                  <p className="inline font-medium">Problem refinement: </p>
+                  <p className="inline">
+                    the operation process is mapped out and benchmarked with the
+                    good practices acquired from the stage of the literature
+                    review. Systemic deficiencies were then identified and
+                    solutions were developed to fix them.
+                  </p>
+                </li>
+                <li className="text-justify">
+                  <p className="inline font-medium">
+                    Development of alternatives:{" "}
+                  </p>
+                  <p className="inline">
+                    the main goal of this step is an effort to attack the
+                    problem via the multiple corners of the business.
+                  </p>
+                </li>
+                <li className="text-justify">
+                  <p className="inline font-medium">
+                    Solution recommendation:{" "}
+                  </p>
+                  <p className="inline">
+                    under the context of the business, a set of combined
+                    alternatives is selected and recommended. Action plan is
+                    worked out together with the risk mitigation plan.
+                  </p>
+                </li>
               </ul>
             </div>
           </div>

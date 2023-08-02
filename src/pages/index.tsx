@@ -5,11 +5,11 @@ export default function Home() {
     <>
       {/* SEO */}
       <NextSeo
-        title="Tran Thanh Binh"
+        title="Tran Thanh Binh | Introduction"
         description=""
         openGraph={{
           url: "/",
-          title: "Tran Thanh Binh",
+          title: "Tran Thanh Binh | Introduction",
           description: "",
           images: [
             {
@@ -27,7 +27,7 @@ export default function Home() {
               type: "image/jpeg",
             },
           ],
-          siteName: "Tran Thanh Binh",
+          siteName: "Tran Thanh Binh | Introduction",
         }}
       />
       {/* Top Body Home Page */}

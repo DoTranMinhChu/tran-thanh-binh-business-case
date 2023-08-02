@@ -35,7 +35,7 @@ export default function Home() {
       <div className="container p-4 mx-auto">
         <section className="py-4">
           <p className="py-2 text-justify">
-            Company’s sales are generated through 2 channels, i.e.: MT and GT in
+            Company&apos;s sales are generated through 2 channels, i.e.: MT and GT in
             70% and 30% approx. proportion of the total sales of the company. We
             will go through each channel to see how the products are distributed
             and sales are recognized by the Company to the consumers.

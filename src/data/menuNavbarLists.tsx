@@ -27,9 +27,9 @@ const menuNavbarList: IItemNavbar[] = [
     slug: "/solution-recommendations",
   },
   {
-    name: "conclusion",
-    title: "Conclusion",
-    slug: "/conclusion",
+    name: "planning",
+    title: "Planning",
+    slug: "/planning",
   },
   {
     name: "summary",

@@ -120,11 +120,7 @@ export default function Home() {
             <i>Table 3:</i> Advantages and disadvantages of this Organization
             restructure
           </p>
-          <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -169,11 +165,7 @@ export default function Home() {
             time, products with slow moving and/or low margin can be reduced and
             gradually eliminated (after stock-out) from its product basket.
           </p>
-          <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -239,11 +231,7 @@ export default function Home() {
             <i>Table 4:</i> Additional advantages and disadvantages of the
             Optimization of high-low margin products
           </p>
-          <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -308,11 +296,7 @@ export default function Home() {
             <i>Table 5:</i> Additional advantages and disadvantages of the
             Optimization of high-low margin products
           </p>
-          <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -366,11 +350,7 @@ export default function Home() {
             <i>Table 6:</i> Vietnam market share of non-luxury watch 2022
             (provided by the company)
           </p>
-          <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -431,11 +411,7 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 7:</i> Market share of non-luxury watch forecast
           </p>
-          <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -530,11 +506,7 @@ export default function Home() {
         <p className="py-2 text-justify">
           <i>Table 8:</i> Profitability of the project
         </p>
-        <div   className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}>
+        <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
           <div className="overflow-hidden border-b border-gray-200 rounded shadow">
             <table className="min-w-full bg-white">
               <thead className="text-white bg-[#4C90CA]">

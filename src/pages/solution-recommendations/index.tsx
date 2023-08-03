@@ -45,13 +45,7 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 9:</i> Force field analysis of the five alternatives
           </p>
-          <div
-            className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}
-          >
+          <div className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white ">
                 <thead className="text-white bg-[#4C90CA]">
@@ -263,11 +257,7 @@ export default function Home() {
             <i>Table 10:</i> Alternatives ranking
           </p>
           <div
-            className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}
+           className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2"
           >
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">

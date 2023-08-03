@@ -65,11 +65,7 @@ export default function Home() {
           </div>
           <h2 className="pt-4 font-medium">Risk mitigation</h2>
           <div
-            className="w-full py-2 md:text-base md:px-2"
-            style={{
-              fontSize: "0.5rem",
-              lineHeight: "0.75rem",
-            }}
+           className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2"
           >
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">

@@ -98,7 +98,7 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 1:</i> Profit and loss in 2022 and the first half of 2023
           </p>
-          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
+          <div  className="w-full py-2 max-[450px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
@@ -168,7 +168,7 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 2:</i> Gross margin (%) of product categories - 2023 H1
           </p>
-          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
+          <div  className="w-full py-2 max-[450px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">

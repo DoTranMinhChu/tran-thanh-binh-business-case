@@ -61,7 +61,7 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 11:</i> Proposed alternatives
           </p>
-          <div  className="w-full py-2 max-[400px]:text-[0.55rem] text-base md:px-2">
+          <div  className="w-full py-2 max-[450px]:text-[0.55rem] text-base md:px-2">
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">

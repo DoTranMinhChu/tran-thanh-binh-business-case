@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className="container p-4 mx-auto">
         <section className="py-4">
-          <h1 className="text-sm font-bold">REFERENCE</h1>
+          <h1 className="text-base font-bold">REFERENCE</h1>
           <hr className="mt-4 h-2 w-[70%] border-black" />
           <ul className="py-2 pl-4 list-decimal">
             <li className="text-justify">
@@ -47,7 +47,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <h1 className="mt-40 text-sm font-bold">APPENDIX</h1>
+          <h1 className="mt-40 text-base font-bold">APPENDIX</h1>
           <hr className="mt-4 h-2 w-[70%] border-black" />
           <h1 className="py-2">
             <b>Appendix 1:</b> P&L from Publishers forecast for 3 months:
@@ -57,8 +57,8 @@ export default function Home() {
               <table className="bg-white ">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase"></th>
-                    <th className="px-4 py-3 text-sm font-semibold text-right uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase"></th>
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-right uppercase">
                       Million VND
                     </th>
                   </tr>
@@ -93,8 +93,8 @@ export default function Home() {
               <table className="bg-white ">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase"></th>
-                    <th className="px-4 py-3 text-sm font-semibold text-right uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase"></th>
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-right uppercase">
                       Million VND
                     </th>
                   </tr>

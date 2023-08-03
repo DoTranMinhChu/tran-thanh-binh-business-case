@@ -98,21 +98,25 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 1:</i> Profit and loss in 2022 and the first half of 2023
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">
+                    <th className="w-1/3 px-1 py-1 md:px-4 md:py-3 font-semibold text-left uppercase">
                       Profit and loss
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       2022 Full year
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       2023-H1
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       2023-H1/2022
                     </th>
                   </tr>
@@ -168,21 +172,25 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 2:</i> Gross margin (%) of product categories - 2023 H1
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">
+                    <th className="w-1/3 px-1 py-1 md:px-4 md:py-3 font-semibold text-left uppercase">
                       Gross margin
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       MT
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       GT
                     </th>
-                    <th className="w-[30%] px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-[30%] px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Sale contribution ranking
                     </th>
                   </tr>

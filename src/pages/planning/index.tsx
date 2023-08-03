@@ -64,18 +64,24 @@ export default function Home() {
             />
           </div>
           <h2 className="pt-4 font-medium">Risk mitigation</h2>
-          <div className="w-full py-2 md:px-2">
+          <div
+            className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}
+          >
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/5 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/5 px-1 py-1 font-semibold text-center uppercase md:px-4 md:py-3">
                       Code
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 font-semibold text-center uppercase md:px-4 md:py-3">
                       Risk description
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 font-semibold text-center uppercase md:px-4 md:py-3">
                       Measures
                     </th>
                   </tr>

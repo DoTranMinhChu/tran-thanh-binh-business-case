@@ -120,15 +120,19 @@ export default function Home() {
             <i>Table 3:</i> Advantages and disadvantages of this Organization
             restructure
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Advantages
                     </th>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Disadvantages
                     </th>
                   </tr>
@@ -165,24 +169,28 @@ export default function Home() {
             time, products with slow moving and/or low margin can be reduced and
             gradually eliminated (after stock-out) from its product basket.
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">
+                    <th className="w-1/3 px-1 py-1 md:px-4 md:py-3 font-semibold text-left uppercase">
                       Gross margin
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       MT
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       GT
                     </th>
-                    <th className="w-[30%] px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-[30%] px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Sale contribution ranking
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Prioritized
                     </th>
                   </tr>
@@ -231,15 +239,19 @@ export default function Home() {
             <i>Table 4:</i> Additional advantages and disadvantages of the
             Optimization of high-low margin products
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Advantages
                     </th>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Disadvantages
                     </th>
                   </tr>
@@ -296,15 +308,19 @@ export default function Home() {
             <i>Table 5:</i> Additional advantages and disadvantages of the
             Optimization of high-low margin products
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Advantages
                     </th>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Disadvantages
                     </th>
                   </tr>
@@ -350,15 +366,19 @@ export default function Home() {
             <i>Table 6:</i> Vietnam market share of non-luxury watch 2022
             (provided by the company)
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-left uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-left uppercase">
                       Account
                     </th>
-                    <th className="w-1/2 px-4 py-3 text-sm font-semibold text-center uppercase">
+                    <th className="w-1/2 px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                       Mobile World Group
                     </th>
                   </tr>
@@ -411,18 +431,22 @@ export default function Home() {
           <p className="py-2 text-justify">
             <i>Table 7:</i> Market share of non-luxury watch forecast
           </p>
-          <div className="w-full py-2 md:px-2">
+          <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
             <div className="overflow-hidden border-b border-gray-200 rounded shadow">
               <table className="min-w-full bg-white">
                 <thead className="text-white bg-[#4C90CA]">
                   <tr>
-                    <th className="px-4 py-3 text-sm font-semibold text-left uppercase ">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-left uppercase ">
                       Year
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase ">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase ">
                       Mobile World Group
                     </th>
-                    <th className="px-4 py-3 text-sm font-semibold text-center uppercase ">
+                    <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase ">
                       Others
                     </th>
                   </tr>
@@ -506,19 +530,23 @@ export default function Home() {
         <p className="py-2 text-justify">
           <i>Table 8:</i> Profitability of the project
         </p>
-        <div className="w-full py-2 md:px-2">
+        <div   className="w-full py-2 md:text-base md:px-2"
+            style={{
+              fontSize: "0.5rem",
+              lineHeight: "0.75rem",
+            }}>
           <div className="overflow-hidden border-b border-gray-200 rounded shadow">
             <table className="min-w-full bg-white">
               <thead className="text-white bg-[#4C90CA]">
                 <tr>
-                  <th className="px-4 py-3 text-sm font-semibold text-left uppercase">
+                  <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-left uppercase">
                     Profitability
                   </th>
-                  <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                  <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                     Scenario 1: High (quarter growth rate: 20%, discount rate:
                     10%)
                   </th>
-                  <th className="px-4 py-3 text-sm font-semibold text-center uppercase">
+                  <th className="px-1 py-1 md:px-4 md:py-3 font-semibold text-center uppercase">
                     Scenario 2: Low (quarter growth rate: 10%, discount rate:
                     15%)
                   </th>
@@ -549,6 +577,18 @@ export default function Home() {
             (<i>Notes</i>: Working calculations in the Appendix 3)
           </p>
         </div>
+
+        <hr className=" mt-12 h-2 w-[70%] border-black" />
+        <ul className="py-2 pl-4">
+          <li className="text-justify">
+            <span className="text-blue-500 ">(1) </span>
+            <span className="text-xs italic ">
+              Due to the confidentiality of the information of the platform to
+              be developed and launched, it is advised by the Company not to
+              disclose the main features in the context of this writing.
+            </span>
+          </li>
+        </ul>
       </div>
     </>
   );

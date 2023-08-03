@@ -181,8 +181,9 @@ export default function Home() {
               Lotte, FPT, Emart, Fahasa, Phuong Nam, Concung, Tuticare,
               Bibomart, Shoptretho, Tiki, Shopee, Lazada, etc. (called as Modern
               Trades – MT) together with hundreds of Level 1 wholesale
-              distributors nationwide and end-users (called as General Trades –
-              GT).
+              distributors nationwide,
+              <span className="text-red-700"> shops</span> and end-users (called
+              as General Trades – GT).
             </p>
             <div className="py-2">
               <img
@@ -194,15 +195,6 @@ export default function Home() {
 
             {/* BUSINESS MODEL CANVAS */}
             <p className="pt-6">BUSINESS MODEL CANVAS</p>
-            <p className="py-2 text-justify">
-              Smart Marketing’s customers and sale channels are the leading
-              retailers in Vietnam such as Thegioididong, Dienmayxanh, Aeon,
-              Lotte, FPT, Emart, Fahasa, Phuong Nam, Concung, Tuticare,
-              Bibomart, Shoptretho, Tiki, Shopee, Lazada, etc. (called as Modern
-              Trades – MT) together with hundreds of Level 1 wholesale
-              distributors nationwide and end-users (called as General Trades –
-              GT).
-            </p>
             <div className="py-2">
               <img
                 className="w-full py-2 mx-auto"
@@ -213,7 +205,7 @@ export default function Home() {
           </div>
         </section>
         <section className="py-4">
-          <h1 className="font-semibold">2. COMPANY PROFILE</h1>
+          <h1 className="font-semibold">2. STUDY MOTIVATION</h1>
           <div className="px-4">
             <p className="py-2 text-justify">
               It is observed that the Smart Marketing operation had gone quite
